@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="#16c6da">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1.5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/menu_background">
+                    <ImageView
+                        android:id="@+id/home"
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+
+                        android:src="@drawable/ic_home_black_24dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:textColor="#ffffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Name:"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:padding="5sp"
+                                />
+                            <TextView
+
+                                android:textColor="#ffffff"
+                                android:id="@+id/id_textName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Your name"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:padding="5sp"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:textColor="#ffffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Lastname:"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:padding="5sp"
+                                />
+                            <TextView
+                                android:textColor="#ffffff"
+                                android:id="@+id/id_textLast"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Your Lastname"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:padding="5sp"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:textColor="#ffffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="QR-Number:"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:padding="5sp"
+                                />
+                            <TextView
+                                android:id="@+id/qr_number"
+                                android:textColor="#ffffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Your QR-Number"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:padding="5sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/change_qr_number"
+                                android:textColor="#ffffff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Change"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:padding="5sp"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+
+                        android:src="@mipmap/ic_launcher_foreground" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Below are the questionare forms"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:columnCount="2"
+                android:rowCount="3"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="true"
+                android:layout_weight="8"
+                android:padding="14dp">
+
+                <!-- row 1-->
+                <!--column1-->
+                <android.support.v7.widget.CardView
+
+                    android:id="@+id/GEOIdentification"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal" />
+                        <TextView
+
+
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Geographic Identification"
+                            android:textColor="#000000"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!--column1-->
+                <!--row 2-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Housing_Census"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="16dp"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#000000"
+                            />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Housing Census Questions"
+                            android:textColor="#000000"
+                            android:textAlignment="center"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!-- row 1-->
+                <!--column2-->
+                <android.support.v7.widget.CardView
+
+
+                    android:id="@+id/rdly"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="16dp"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#000000"
+                            />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Registration of Deaths in the last two years among household members"
+                            android:textColor="#000000"
+                            android:textAlignment="center"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--column2-->
+                <!--row2-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/population_census_question"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="16dp"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#000000"
+                            />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Population Census Questions"
+                            android:textColor="#000000"
+                            android:textAlignment="center"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!-- row 1-->
+                <!--column3-->
+                <android.support.v7.widget.CardView
+
+
+                    android:id="@+id/Certification"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="16dp"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#000000"
+                            />
+
+                        <TextView
+
+
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Certification"
+                            android:textColor="#000000"
+                            android:textAlignment="center"
+
+                            />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!--row2-->
+                <!--column3-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/InterviewRecBtn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="16dp"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#000000"
+                            />
+
+                        <TextView
+
+
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Interview Record"
+                            android:textColor="#000000"
+                            android:textAlignment="center"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

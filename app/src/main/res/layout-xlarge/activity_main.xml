@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Census of population and housing report"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#49c0fc"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="#14c6da"
+            android:src="@mipmap/ic_launcher_foreground"
+            />
+        <LinearLayout
+            android:id="@+id/layoutInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="0dp"
+            android:background="#FFF"
+            android:orientation="vertical"
+            android:padding="40dp">
+            <TextView
+                android:textColor="#16c6da"
+                android:textSize="40sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Username" />
+            <EditText
+                android:textColor="#060606"
+                android:textSize="40sp"
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:drawableLeft="@drawable/ic_perm_identity_black_50dp"
+                android:hint="Username.."
+                android:inputType="text" />
+            <TextView
+                android:textColor="#FF16C6DA"
+                android:textSize="40sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Password" />
+            <EditText
+                android:drawableLeft="@drawable/ic_lock_outline_black_50dp"
+                android:textColor="#060606"
+                android:textSize="40sp"
+                android:id="@+id/etPassword"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:hint="Password.." />
+            <Button
+                android:id="@+id/bLogin"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Login"
+                android:background="#FF1A99EB"
+                android:textColor="#fbfdff"
+                android:textSize="50sp"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/Fpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutInput"
+                android:text="Forgot password?"
+                android:textColor="#FF023AAA"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

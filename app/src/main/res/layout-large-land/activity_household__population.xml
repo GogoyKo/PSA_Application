@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/menu_background"
+        >
+        <TextView
+
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:text="Family Members"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/add_member"
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_add_circle_outline_black_24dp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/show"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_background"
+        android:text="Show"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+         <GridView
+             android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="900dp"
+                android:layout_height="match_parent"
+                android:id="@+id/listview_product"
+                android:dividerHeight="10dp"
+                android:divider="#d1d1d1"
+                android:numColumns="5"
+             />
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+

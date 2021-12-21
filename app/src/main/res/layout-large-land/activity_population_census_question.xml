@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/menu_background">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_keyboard_backspace_black_50dp"
+            />
+        <TextView
+            android:textSize="35sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            android:text="Back Survey Questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/QR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <GridLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="3"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="1"
+                        android:columnOrderPreserved="true"
+                        android:rowCount="2">
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="POPULATION CENSUS QUESTIONS"
+                                    android:textAlignment="center"
+                                    android:textSize="30sp" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                    </GridLayout>
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="3"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="10"
+                        android:columnOrderPreserved="true"
+                        android:rowCount="2">
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="1851dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="FOL ALL PERSONS"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="FOR ALL PERSONS
+5 TO 24 YEARS OLD"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="404dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="FOR ALL PERSONS 5 YEARS OLD AND OVER"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="812dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="FOR ALL PERSONS 15 YEARS OLD AND OVER"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+                    </GridLayout>
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="3"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="20"
+                        android:columnOrderPreserved="true"
+                        android:rowCount="2">
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Name"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Relationship to the
+Household Head"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Sex"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Date of Birth"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Age"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="404dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Birth Registration"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Marital Status"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Religious Affiliation"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="School Attendance"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Literacy"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Highest Grade/Year Completed"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="404dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Technical/Vocational Course Obtained"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Overseas Worker"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Usual Activity/Occupation"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </GridLayout>
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="18"
+                        android:columnOrderPreserved="true"
+                        android:rowCount="2">
+
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P1"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P2"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P3"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P4"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P5"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P6"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P7"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P8"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P9"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="70dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P10"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P11"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="12"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P13"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P14"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P15"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="P16"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+                    </GridLayout>
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="2"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="20"
+                        android:columnOrderPreserved="true"
+                        android:rowCount="2">
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Who is the head of this household?
+Who are the persons usually residing here?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="What is ____’s
+relationship to the head
+of this household?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Is ____ male
+or female?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="In what month and
+year was ____ born?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="What is ____’s age
+as of his/her last
+birthday?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Was ____’s birth
+registered with the
+Local Civil
+Registry Office?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Has ____ ever
+had a copy of
+his/her birth
+certificate?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Is ____ single, married, widowed,
+divorced/separated, or in a commonlaw/live-in
+arrangement?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="What is ____’s
+religious affiliation?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Is ____ currently
+attending school?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Can ____ read and
+write a simple
+message in any
+language or dialect?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="What is the highest grade/year
+completed by ____?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Is ____ a graduate of
+technical/vocational
+course?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="What is the
+technical/vocational course
+obtained by ____?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Is ____ an overseas
+worker?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="During the past 12 months, what was ____’s usual
+activity/occupation?"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+
+                    </GridLayout>
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:layout_weight="2"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="19"
+                        android:columnOrderPreserved="true"
+                        android:rowCount="2">
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="150dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <EditText
+                                    android:id="@+id/lastname"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Lastname" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="LAST NAME"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+
+                                <EditText
+                                    android:id="@+id/firstname"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Firstname" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="FIRST NAME"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+
+                                <EditText
+                                    android:id="@+id/edit_p2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+
+                                <Spinner
+                                    android:id="@+id/p2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/Code_P2" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Relationship"
+                                    android:textSize="15sp"
+                                    android:textAlignment="center"/>
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+                                <EditText
+                                    android:id="@+id/edit_p3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/Sex" />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="GENDER"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+
+                                <TextView
+                                    android:textSize="20sp"
+                                    android:id="@+id/month_p4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:textSize="15sp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Date of Birth"
+                                    android:textAlignment="center" />
+                                <Button
+                                    android:id="@+id/p4_date"
+                                    android:text="Get Date"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+
+                                <EditText
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:id="@+id/p5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="AGE"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <EditText
+                                    android:id="@+id/edit_p6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/death_reg" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Birth registered?"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <EditText
+                                    android:id="@+id/edit_p7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/death_reg" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Have birth certificate copy?"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <EditText
+                                    android:id="@+id/edit_p8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/P8" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Status"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+
+                                <EditText
+                                    android:id="@+id/p9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Affilation" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="SPECIFY"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="20dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <EditText
+                                    android:id="@+id/edit_p10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/Yes_No" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Attending school?"
+                                    android:textAlignment="center" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <EditText
+                                    android:id="@+id/edit_p11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/Yes_No" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Can read and write?"
+                                    android:textAlignment="center" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <EditText
+                                    android:id="@+id/edit_p12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/P12" />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Grade Completed"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <EditText
+                                    android:id="@+id/edit_p13"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p13"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/P13" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Graduate?"
+                                    android:textAlignment="center" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+
+                                <EditText
+                                    android:id="@+id/p14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="technical/vocation obtain" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="SPECIFY"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <EditText
+                                    android:id="@+id/edit_p15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                                <Spinner
+                                    android:id="@+id/p15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/Yes_No" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Overseas worker?"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="170dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+
+                                <EditText
+                                    android:id="@+id/p16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Usual activity/occupation?" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="SPECIFY"
+                                    android:textAlignment="center"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <Button
+                                    android:id="@+id/Add"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="80dp"
+                                    android:text="Add Member" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                    </GridLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/Proceed"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Done" />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

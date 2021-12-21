@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kugangka.myapplication">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserDashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScanQRCode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SurveyForms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CertificationForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetSignature"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".ForgotPassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".GEO_Identification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interview_Record"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Population_Census_Question"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Housing_Census_Question"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reg_Death"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".My_Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetSignature2"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".GetSignature3"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".GetSignature4"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".ScanToSurvey"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Survey_Questions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard_Menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".Household_Certification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Household_Geo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Household_Interview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Household_Population"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Household_Housing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Household_Death"
+            android:screenOrientation="portrait" />
+        <activity android:name=".User_Manual" />
+        <activity android:name=".About_App" />
+        <activity android:name=".Manage_Account" />
+        <activity
+            android:name=".Population_Update_Form"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Death_Member"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Dialog.Alert"
+            />
+        <activity
+            android:name=".Death_Update_Form"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".qr_change"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Dialog.Alert"
+
+            />
+    </application>
+
+</manifest>

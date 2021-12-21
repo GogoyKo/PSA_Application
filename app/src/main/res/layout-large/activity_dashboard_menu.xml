@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:id="@+id/linearLayout1"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    android:background="#ffff"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+      >
+        <TextView android:layout_height="80dp"
+            android:text="Manage Account"
+            android:layout_width="match_parent"
+            android:id="@+id/manage"
+            android:textStyle="bold"
+            android:background="#fff"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:drawableRight="@drawable/ic_portrait_black_50dp"
+
+
+
+
+            />
+
+        <TextView android:layout_height="80dp"
+            android:text="Change Password"
+            android:layout_width="match_parent"
+            android:id="@+id/change_pass"
+            android:textStyle="bold"
+            android:background="#fff"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:drawableRight="@drawable/ic_edit_black_24dp"/>
+
+        <TextView
+            android:layout_height="80dp"
+            android:text="Logout"
+            android:layout_width="match_parent"
+            android:id="@+id/logout"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#fff"
+            android:textSize="25sp"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:drawableRight="@drawable/ic_exit_to_app_black_50dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,719 @@
+<resources>
+    <string name="app_name">PSA</string>
+    <string name="welcome">Welcome</string>
+    <string name="new_survey">NEW SURVEY</string>
+    <string name="scan_qr_code">SCAN QR-CODE</string>
+    <string name="focus_the_camera_to_the_qr_code">Focus the camera to the QR Code.</string>
+    <string name="manual_input_number">Manual input number?</string>
+    <string name="proceed">Proceed</string>
+    <string name="household_number">Household number</string>
+    <string name="username">Username</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="certification_form">Certification Form</string>
+    <string name="geo_identification">GEO Identification</string>
+    <string name="enterview_record">Enterview Record</string>
+    <string name="population_questions">Population Questions</string>
+    <string name="housing_census">Housing Census</string>
+    <string name="registration_of_deaths_in_the_last_two_years_among_household_members">Registration of deaths in the last two years among household members</string>
+    <string name="i_hereby_certify_that_the_data_set_forth_herein_were_personally_obtained_reviewed_by_me_and_in_accordance_with_the_instructions_given_by_the_psa">I hereby certify that the data set forth herein were personally obtained/reviewed by me and in accordance with the instructions given by the PSA.</string>
+    <string name="enumerator_name">Enumerator name..</string>
+    <string name="date_accomplished">Date accomplished</string>
+    <string name="team_supervisor">Team supervisor..</string>
+    <string name="enumerator">Enumerator</string>
+    <string name="signature_over_printed_name">Signature over printed name</string>
+    <string name="date_reviewed">Date reviewed..</string>
+    <string name="census_area_supervisor">Census area supervisor</string>
+    <string name="co_rsso_po">CO/RSSO/PO..</string>
+    <string name="provice">Provice</string>
+    <string name="provice_name">Provice name..</string>
+    <string name="city_municipality">City/ Municipality</string>
+    <string name="city_municipal_name">City/Municipal name..</string>
+    <string name="barangay">Barangay</string>
+    <string name="barangay_name">Barangay name..</string>
+    <string name="enumeration_are_number">Enumeration are number</string>
+    <string name="building_serial_number">Building serial number</string>
+    <string name="housing_unit_serial_number">Housing unit serial number</string>
+    <string name="household_serial_number">Household serial number</string>
+    <string name="line_number_of_the_respondent">Line number of the respondent</string>
+    <string name="name_of_the_household_head">Name of the household head</string>
+    <string name="lastname">Lastname</string>
+    <string name="firstname">Firstname</string>
+    <string name="address">Address</string>
+    <string name="house_building_number_and_street_or_sitio_purok_name">House/Building number and street or sitio/purok name</string>
+
+    <string-array name="D1">
+        <item></item>
+        <item>Yes</item>
+        <item>No, END INTERVIEW</item>
+    </string-array>
+    <string-array name="D2">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="Sex">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="B1">
+        <item></item>
+        <item>Single house</item>
+        <item>Duplex</item>
+        <item>Multi-unit residential (3 or more units)</item>
+        <item>Commercial/industrial/agricultural(office, factory,and others)</item>
+        <item>Institutional living quarter (hotel,hospital,prison, and others)</item>
+        <item>Tent</item>
+    </string-array>
+    <string-array name="B2">
+        <item></item>
+        <item>Galvanized iron/aluminum</item>
+        <item>Tile/concrete/clay tile</item>
+        <item>Half galvanized iron and half concrete</item>
+        <item>Bamboo/cogon/nipa/anahaw</item>
+        <item>Asbestos</item>
+        <item>Makeshift/salvaged/improvised materials</item>
+        <item>Trapal</item>
+    </string-array>
+    <string-array name="B3">
+        <item></item>
+        <item>Concrete/brick/stone</item>
+        <item>Wood</item>
+        <item>Half concrete/brick/stone and half wood</item>
+        <item>Galvanized iron/aluminum</item>
+        <item>Bamboo/sawali cogon/nipa</item>
+        <item>Asbestos</item>
+        <item>Glass</item>
+        <item>Makeshift/salvaged/improvised materials</item>
+        <item>Trapal</item>
+        <item>No walls</item>
+    </string-array>
+    <string-array name="H1">
+        <item></item>
+        <item>Electricity</item>
+        <item>Kerosene(gaas)</item>
+        <item>Liquefied petroleum gas(LPG)</item>
+        <item>Oil (vegetable, animal, and others)</item>
+        <item>Solar panel</item>
+        <item>Solar lamp</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="H2">
+        <item></item>
+        <item>Own use faucet,
+community water system</item>
+        <item>Shared faucet,
+community water system</item>
+        <item>Own use, tubed/piped
+deep well</item>
+        <item>Shared tubed/piped
+deep well
+</item>
+        <item>Tubed/piped
+shallow well</item>
+        <item>Dug well</item>
+        <item>Protected
+spring</item>
+        <item>Unprotected
+spring</item>
+        <item>Lake, river,
+rain, and lake</item>
+        <item>Peddler</item>
+        <item>Bottled wate</item>
+    </string-array>
+    <string-array name="H3">
+        <item></item>
+        <item>Own use faucet,
+community water system</item>
+        <item>Shared faucet,
+community water system</item>
+        <item>Own use, tubed/piped
+deep well</item>
+        <item>Shared tubed/piped
+deep well
+</item>
+        <item>Tubed/piped
+shallow well</item>
+        <item>Dug well</item>
+        <item>Protected
+spring</item>
+<item>Unprotected spring</item>
+
+        <item>Lake, river,
+rain, and lake</item>
+        <item>Peddler</item>
+        <item>Bottled water</item>
+    </string-array>
+    <string-array name="H4">
+        <item></item>
+        <item>Own or owner-like possession of house and lot</item>
+        <item>Rent house/room, including lot</item>
+        <item>Own house, rent lot</item>
+        <item>Own house, rent-free lot with consent of owner
+</item>
+        <item>Own house, rent-free lot without consent of owner</item>
+        <item>Rent-free house and lot with consent of owner</item>
+        <item>Rent-free house and lot without consent of owner</item>
+    </string-array>
+    <string-array name="Year">
+        <item></item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+    <string-array name="Code_P2">
+        <item></item>
+        <item>Head</item>
+        <item>Spouse</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Stepson</item>
+        <item>Stepdaughter</item>
+        <item>Son-in-law</item>
+        <item>Daughter-in-law</item>
+        <item>Grandson</item>
+        <item>Granddaughter</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Nephew</item>
+        <item>Niece</item>
+        <item>Other relative</item>
+        <item>Non-relative</item>
+        <item>Boarder</item>
+        <item>Domestic helper</item>
+    </string-array>
+    <string-array name="Collection_Mode">
+        <item></item>
+        <item>Personal Interview</item>
+        <item>Self-Administered Questionnaire</item>
+    </string-array>
+    <string-array name="Result_Visit">
+        <item></item>
+        <item>Completed</item>
+        <item>Refused</item>
+        <item>No Respondent</item>
+        <item>Entire Household Is Absent For Entented Period Of Time</item>
+        <item>Partly Completed</item>
+        <item>Postponed</item>
+
+    </string-array>
+    <string-array name="Hours">
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="Minutes">
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+
+    </string-array>
+    <string-array name="Am_Pm">
+        <item></item>
+        <item>AM</item>
+        <item>PM</item>
+
+    </string-array>
+    <string-array name="Months">
+        <item></item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>Novermber</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="Months_Number">
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="Days">
+        <item></item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+
+        <item>31</item>
+
+    </string-array>
+    <string-array name="OneToTen">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+
+    </string-array>
+    <string-array name="Age">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+        <item>116</item>
+        <item>117</item>
+        <item>118</item>
+        <item>119</item>
+        <item>120</item>
+
+        <item>121</item>
+        <item>122</item>
+        <item>123</item>
+        <item>124</item>
+        <item>125</item>
+        <item>126</item>
+        <item>127</item>
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+    </string-array>
+    <string-array name="death_reg">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Dont know</item>
+
+    </string-array>
+    <string-array name="death_age">
+        <item></item>
+        <item>Days</item>
+        <item>Months</item>
+        <item>Years</item>
+        <item>Dont know</item>
+
+    </string-array>
+    <string-array name="Yes_No">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="P12">
+
+        <item></item>
+        <item>No grade completed</item>
+        <item>Preschool</item>
+
+        <item>Grade 1 - Elementary</item>
+        <item>Grade 2 - Elementary</item>
+        <item>Grade 3 - Elementary</item>
+        <item>Grade 4 - Elementary</item>
+        <item>Grade 5 - Elementary</item>
+        <item>Grade 6 graduate - Elementary</item>
+        <item>Grade 7 graduate - Elementary</item>
+
+        <item>Grade 1 - K-to-12</item>
+        <item>Grade 2 - K-to-12</item>
+        <item>Grade 3 - K-to-12</item>
+        <item>Grade 4 - K-to-12</item>
+        <item>Grade 5 - K-to-12</item>
+        <item>Grade 6 - K-to-12</item>
+        <item>Grade 7 - K-to-12</item>
+        <item>Grade 8 - K-to-12</item>
+        <item>Grade 9 - K-to-12</item>
+        <item>Grade 10 - K-to-12</item>
+        <item>Grade 11 - K-to-12</item>
+        <item>Grade 12 - K-to-12</item>
+
+        <item>SPED, undergraduate</item>
+        <item>SPED, graduate</item>
+
+        <item>1st Year College</item>
+        <item>2nd Year College</item>
+        <item>3rd Year College</item>
+        <item>4th Year College</item>
+        <item>5th Year College</item>
+        <item>6th Year College</item>
+
+
+        <item>Master’s degree undergraduate</item>
+        <item>Master’s degree graduate</item>
+        <item>Doctorate degree undergraduate</item>
+        <item>Doctorate degree graduate</item>
+
+
+    </string-array>
+
+    <string-array name="P8">
+        <item></item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Widowed</item>
+        <item>Divorced/separated</item>
+        <item>Common-law/Live-in</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="P13">
+        <item></item>
+        <item>Yes</item>
+        <item>No, SKIP TO P15</item>
+    </string-array>
+
+    <string-array name="empty">
+        <item></item>
+    </string-array>
+
+</resources>
